@@ -151,9 +151,8 @@ const ShoesStore = () => {
   console.log(layDuLieuShoes);
   //   console.log();
   return (
-
-
-<div className="container align-middle">
+    <>
+      <div className="container align-middle">
         <h2 className="text-red-500 text-center text-7xl">Shoes Stores</h2>
         {/* product-list */}
         <ProductList layDuLieuShoes={layDuLieuShoes} arrSanPham={arrShoes} />
